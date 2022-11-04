@@ -1,0 +1,58 @@
+
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+}
+*{
+    font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
+    color: white;
+}
+.headerContainer{
+    text-align: center;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+.topContainer{
+    margin-top: 30px;
+}
+.btns{
+    height: 100px;
+    width: 100px;
+    font-size: 48px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.btns:hover{
+    transform: scale(1.2);
+}
+.resultContainer{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 2rem;
+}
+.playerScore p{
+    margin: 0;
+}
+#endGameButton{
+    height: 80px;
+    width: 80px;
+    font-size: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+#endGameButton:hover{
+    transform: scale(1.1);
+}
