@@ -3,3 +3,4 @@ This repository contains the following projects:
 2. Dice Challenge
 3. Rock Paper Scissors
 4. Tip Calculator
+5. Simon Game - using jQuery
