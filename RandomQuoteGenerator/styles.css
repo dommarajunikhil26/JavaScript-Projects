@@ -1,6 +1,7 @@
 h1{
     text-align: center;
     padding-top: 1rem;
+    color: #e7717d !important;
 }
 footer {
     position: fixed;
@@ -12,11 +13,17 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
 .container{
     border: 1px solid black;
     display: grid;
     text-align: center;
-    justify-content: center;
+    justify-items: center;
+    background-color: #b1a296;
+    border-radius: 10px;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .row > button{
     display: flex;
@@ -26,4 +33,7 @@ footer {
 button:hover{
     background-color: black;
     color: white;
+}
+body {
+    background-color: #1a1a1d !important;
 }
